@@ -65,7 +65,7 @@ footer {
     url("/images/footer-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 40px 40px;
+  padding: 0 20px;
 }
 footer .grid {
   display: grid;
@@ -149,7 +149,7 @@ footer li {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 50px;
 }
 .grid-3-columns {
   grid-template-columns: repeat(3, 1fr);
@@ -157,6 +157,9 @@ footer li {
 }
 .section-2 {
   background-color: #dcdee0;
+  padding: 50px;
+}
+.section-3 {
   padding: 50px;
 }
 .text-center {
@@ -204,6 +207,10 @@ footer li {
 
 .aspect-ratio {
   aspect-ratio: 1/1;
+}
+
+.instagram-embeds {
+  margin: 30px auto;
 }
 @media (max-width: 960px) {
   header {
@@ -261,5 +268,8 @@ footer li {
 @media (max-width: 578px) {
   .smaller-device-hide {
     display: none;
+  }
+  .section-3 {
+    padding: 0;
   }
 }
